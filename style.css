@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: futura;
+}
+
+body{
+    background-color: teal;
+}
+
+.calculator{/*!--1--*/
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+}
+
+table td{/*--2--*/
+    display: inline-block;
+}
+
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #0C1A21;
+    color: white;
+    font-size: 16px;
+    transition: all 50ms ease-in-out;
+}
+
+.btn:hover{
+    background-color: #162f3b;
+}
+
+.btn-ac{
+    margin: 3px;
+    width: 105px;
+    height: 40px;
+    color: white;
+    background-color: #1b7269;
+    font-size: 16px;
+}
+
+.btn-divisao{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    background-color: #1b7269;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-subtracao{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    background-color: #1b7269;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-menos{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    background-color: #1b7269;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-mais{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    background-color: #1b7269;
+    color: white;
+    font-size: 16px;
+}
+
+.btn-igual{
+    margin: 3px;
+    width: 105px;
+    height: 40px;
+    background-color: #1b7269;
+    color: white;
+    font-size: 16px;
+}
+
+.result{/*--3--*/
+    height: 100px;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    font-size: 30px;
+    word-wrap: break-word;
+    border-bottom: 1px solid white;
+}
+
+
+
